@@ -70,4 +70,26 @@ h1 span{        /*Create the hatched border around about me*/
     font-size: 25pt;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+table{
+    width: 100%;
+    font-size: 16pt;
+    font-weight: bolder;
+}
+table, h1, td{
+    border: 2px solid #054cd1;
+    border-collapse: collapse;
+    color: #054cd1;
+    text-align: center;
+    table-layout: fixed;
+}
+.selected{
+    background-color: #054cd1;
+    font-weight: bolder;
+    color: white;
+}
+.time{
+    background-color: #054cd1;
+    font-weight: bolder;
+    color: white;
+}
 
